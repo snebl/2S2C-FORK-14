@@ -9,9 +9,10 @@
     snapCardinals: true
     layers:
     - state: case
+      color: "#e37420"
     - state: trim
-    - state: smartfridge
-      map: ["enum.StorageVisualLayers.Base"]
+      color: "#222222"
+    - state: dispenser
     - state: door
-      map: ["enum.StorageVisualLayers.Door"]
       shader: unshaded
+    - state: "off"
