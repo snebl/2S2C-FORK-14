@@ -1,0 +1,17 @@
+- type: entity
+  parent: SmartFridge
+  id: SmartFridgeUnrestricted
+  name: smart vendor
+  suffix: Medical
+  components:
+  - type: Sprite
+    sprite: _2S2C/smart_vendor.rsi
+    snapCardinals: true
+    layers:
+    - state: case
+    - state: trim
+    - state: smartfridge
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: door
+      map: ["enum.StorageVisualLayers.Door"]
+      shader: unshaded
