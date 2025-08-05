@@ -60,6 +60,9 @@
     },
     {
       "name": "door_open"
+    },
+    {
+      "name": "door_off"
     }
   ]
 }
